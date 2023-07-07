@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width",
+    initial-scale="1.0">
+    <title >
+        Personal portfolio website 
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  </head>
+<body>
+    <header class="header">
+    <a href="#" class="logo">PORTFOLIO</a>
+    
+    <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#Services">Service</a>
+        <a href="#about">About</a>
+        <a href="#Contact">Contact</a>
+
+    </nav>
+    </header>
+    
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Murshid</h1>
+            <h3>Penetration Tester</h3>
+            <p>
+                Hello, I'm Muhammed Murshid T B, a highly skilled Penetration Tester with a focus on securing information systems. With a background in network security and penetration testing,
+                I have honed my skills in identifying vulnerabilities 
+                and implementing effective security controls. Experience in conducting
+                security audits, monitoring network traffic,
+                and responding to security incidents. By staying 
+                abreast of emerging threats and leveraging my analytical
+                mindset, I ensure that organizations are well-prepared 
+                against potential cyber attacks. I am dedicated to 
+                maintaining the highest standards of data protection 
+                and privacy to safeguard sensitive information. 
+            </p>
+        
+        
+            <div class="btn-box">
+        
+              <a class="hire-me-button" href="mailto:murshidtb2048@gmail.com">Hire Me</a>
+              <a class="let's-talk-button" href="https://wa.me/+91 7306333742">Let's Talk</a>
+        
+            </div>
+            
+        </div>
+        <div class="home-sci">
+          <a href="https://www.facebook.com/murshid.tb"><i class='bx bxl-facebook'></i></a> 
+          <a href="https://in.linkedin.com/in/muhammed-murshid-t-b-927372231"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://discord.com/invite/YzFxg2Pc"><i class='bx bxl-discord-alt'></i></a>
+          <a href="https://github.com/murshidxbrt"><i class='bx bxl-github'></i></a>
+          <a href="https://twitter.com/murshidxbrt"><i class='bx bxl-twitter'></i></a>
+        </div>
+        
+        
+
+
+        <span class="home-imgHover"></span>
+       
+    </section>
+
+  
+  <section id="Services" class="Services">
+    <h2>Service</h2>
+    <div class="service-grid">
+        <div class="service">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Vulnerability Assessment<br>&amp; Penetration Testing</h3>
+            <p>Identifying vulnerabilities<br>and conducting penetration tests</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-database"></i>
+            <h3>Security Information<br>&amp; Event Management</h3>
+            <p>Collecting and analyzing<br>security event data</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-lock"></i>
+            <h3>Security Audits<br>&amp; Compliance</h3>
+            <p>Assessing compliance<br>with industry standards</p>
+        </div>
+        <!-- Add more service items as needed -->
+    </div>
+</section>
+
+ <!-- About Section -->
+
+ <section id="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <div class="about-text">
+      <p>I am a passionate cybersecurity professional with a strong background in information security and risk management.
+         I have developed a deep understanding of the ever-evolving threat landscape and the importance of robust security 
+         measures. Throughout my career, I have successfully led and executed comprehensive security assessments, including 
+         vulnerability assessments, penetration testing, and incident response. I have a proven track record of identifying 
+         vulnerabilities, implementing effective controls, and improving overall security posture for organizations.I am com
+         mitted to staying up-to-date with the latest security trends and technologies through continuous learning and profes
+         sional development. I am also a strong advocate for promoting cybersecurity awareness and educating organizations an
+         d individuals about the importance of cybersecurity hygiene.</p>
+      <button class="resume-button" onclick="window.open('path/to/resume.pdf', '_blank')">Download Resume</button>
+    </div>
+    <div class="about-image">
+      <img src="about-image.jpg" alt="About Me Image">
+      <h3>Muhammed Murshid T.B
+      </h3>
+    </div>
+  </div>
+</section>
+
+<section id="certifications" class="certifications">
+  <div class="container">
+    <div class="section-title">
+      <h2>Certifications</h2>
+    </div>
+    <div class="certifications-grid">
+      <div class="certification-item">
+        <img src="certifications/certification1.jpg" alt="Certification 1">
+      </div>
+      <div class="certification-item">
+        <img src="certifications/certification2.jpg" alt="Certification 2">
+      </div>
+      <div class="certification-item">
+        <img src="certifications/certification3.jpg" alt="Certification 3">
+      </div>
+      <div class="certification-item">
+        <img src="certifications/certification4.jpg" alt="Certification 4">
+      </div>
+      <div class="certification-item">
+        <img src="certifications/certification5.jpg" alt="Certification 5">
+      </div>
+      <div class="certification-item">
+        <img src="certifications/certification6.jpg" alt="Certification 6">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="programming-languages">
+  <h2>Technologies and Tools</h2>
+  <ul class="language-list">
+    <li>
+      <i class="fab fa-python"></i>
+      <span>Python</span>
+    </li>
+    <li>
+      <i class="fab fa-js"></i>
+      <span>JavaScript</span>
+    </li>
+    <li>
+      <i class="fas fa-code"></i>
+      <span>C</span>
+    </li>
+    <li>
+      <i class="fas fa-code"></i>
+      <span>C++</span>
+    </li>
+    <li>
+      <i class="fab fa-java"></i>
+      <span>Java</span>
+    </li>
+    <li>
+      <i class="fab fa-docker"></i>
+      <span>Docker</span>
+    </li>
+    <li>
+      <i class="fab fa-html5"></i>
+      <span>HTML</span>
+    </li>
+    <li>
+      <i class="fab fa-css3-alt"></i>
+      <span>CSS</span>
+    </li>
+    <li>
+      <i class="fab fa-php"></i>
+      <span>PHP</span>
+    </li>
+    <li>
+      <i class="fab fa-aws"></i>
+      <span>AWS</span>
+    </li>
+    <li>
+      <i class="fab fa-git"></i>
+      <span>Git</span>
+    </li>
+    <li>
+      <i class="fab fa-linux"></i>
+      <span>Linux</span>
+    </li>
+  </ul>
+</section>
+
+
+
+<section id="cybersecurity-tools">
+  <h2 >Specific Tools </h2>
+  <p>During my carrear I worked with many tools, Here is a list of some I feal more confortble with.</p>
+  <div class="tool-icons">
+    <div class="tool-icon">
+      <a href="#"><img src="icons/nmap.png" alt="Nmap"></a>
+      <span>Nmap</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/nessus.png" alt="Nessus"></a>
+      <span>Nessus</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/nikto.png" alt="Nikto"></a>
+      <span>Nikto</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/zap.png" alt="OWASP ZAP"></a>
+      <span>OWASP ZAP</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/burpsuite.png" alt="Burp Suite"></a>
+      <span>Burp Suite</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/splunk.png" alt="Splunk"></a>
+      <span>Splunk</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/metasploit.png" alt="Metasploit"></a>
+      <span>Metasploit</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/wireshark.png" alt="Wireshark"></a>
+      <span>Wireshark</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/johntheripper.png" alt="John the Ripper"></a>
+      <span>John the Ripper</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/hydra.png" alt="Hydra"></a>
+      <span>Hydra</span>
+    </div>
+    
+    <div class="tool-icon">
+      <a href="#"><img src="icons/maltego.png" alt="Maltego"></a>
+      <span>Maltego</span>
+    </div>
+    <div class="tool-icon">
+      <a href="#"><img src="icons/reconng.png" alt="Recon-ng"></a>
+      <span>Recon-ng</span>
+    </div class="tool-icon">
+  </div>
+  </div>
+</section>
+
+  
+  
+
+
+<section id="Contact" class="Contact">
+  <div class="contact-content">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+    <form id="contactForm" method="post">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" placeholder="Message" required></textarea>
+      </div>
+      <button type="button" onclick="SendMail()">Send</button>
+    </form>
+  </div>
+</section>
+
+<script src="script.js"></script>
+<script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+
+
+
+
+
+</body>
+</html>

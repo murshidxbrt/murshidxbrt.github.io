@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "golive" : "lt --port 5500"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "localtunnel": "^2.0.2"
+  }
+}
